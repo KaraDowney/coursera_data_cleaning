@@ -87,5 +87,4 @@ names(samsung_clean)<-sn
 colnames(samsung_clean)<-paste("Avg",colnames(samsung_clean),sep="_")
 setnames(samsung_clean, old=c("Avg_Subject","Avg_Activity"), new=c("Subject","Activity"))
 
-#Export tidy clean data
-write.table(samsung_clean, row.name=F,file="clean_tidy_samsung_project.txt")
+write.table(samsung_clean, row.names=FALSE,file="clean_tidy_samsung_project_final.txt")
