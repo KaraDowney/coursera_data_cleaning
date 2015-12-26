@@ -10,6 +10,10 @@
 activity in a particular column. The next letter, a t or an f, indicates the measure domain (t = time, f = frequency).
 The next characters until the period indicate the type of motion and how it was measured (acceleromter or gyroscope). Mean means mean, std means Standard Deviation. The final XYZ indicates the axis in three dimensions. More detailed information about the specific study and the context of the data is available at the study website: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+#UNITS: 
+- accelerations (total and body--any variables with "Acc" in the name): 'g's (gravity of earth -> 9.80665 m/seg2).
+- gyroscope (any variables with "Gyro" in the name): rad/seg.
+
 ALL of the variables below are averages of the measure in question by subject and activity
 
 "Avg_tBodyAcc.mean.X" - mean of mean time signal for BodyAcc on the X axis
