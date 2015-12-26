@@ -1,5 +1,6 @@
 ##Codebook
 
+
 #ID Variables
 "Subject" - Indicator for identity of subject. There are 30 subjects 
 
@@ -7,8 +8,7 @@
 
 #Measure Variables - In general, these var names contain 5 compontents: "Avg_" indicates that this is the mean of all measuresments for one subject and 
 activity in a particular column. The next letter, a t or an f, indicates the measure domain (t = time, f = frequency).
-The next characters until the period indicate the type of motion (Body Accerlation, Gravity Accelartion, Body Gyro,
-Body Gyro Jerk). Mean means mean, std means Standard Deviation. The final XYZ indicates the axis in three dimensions.
+The next characters until the period indicate the type of motion and how it was measured (acceleromter or gyroscope). Mean means mean, std means Standard Deviation. The final XYZ indicates the axis in three dimensions. More detailed information about the specific study and the context of the data is available at the study website: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ALL of the variables below are averages of the measure in question by subject and activity
 
