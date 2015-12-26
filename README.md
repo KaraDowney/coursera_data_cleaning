@@ -2,7 +2,9 @@
 
 To load the tidy summary dataset, run the following code:
 
+```R
 read.table(url("https://s3.amazonaws.com/coursera-uploads/user-09db74fbd1c929bb31f862fe/975119/asst-3/26ef8ec0ac1611e594fa21fccc3ce2c8.txt"), header=T)
+```
 
 
 ##About the Analysis File
